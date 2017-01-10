@@ -3,12 +3,13 @@
 
 def main():
     print("Chaotic function")
-    x=eval(input("Enter a number between 0 and 1:"))
-    z=eval(input("Enter a second number between 0 and 1:"))
-    n=eval(input("How many numbers should I print:")) 
+    x=float(input("Enter a number between 0 and 1:"))
+    z=float(input("Enter a second number between 0 and 1:"))
+    n=int(input("How many numbers should I print:"))
+    print(x,z,n) 
     for i in range(n):
-        x=3.9*x*(1-x)
-        z=3.9*z*(1-z)
+        x=3.9*x*(1.0-x)
+        z=3.9*z*(1.0-z)
         print(x,"     ",z)
         
     
