@@ -7,7 +7,7 @@
 
 def main():
     for i in range(7):
-        x=eval(input("Give me an expression: "))
+        x=eval(raw_input("Give me an expression: "))
 
         print(x)
 

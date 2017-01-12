@@ -6,7 +6,7 @@
 # by: Piranaven Selvathayabaran
 
 def main():
-    x=eval(input("Give me an expression:"))
-    print("The value is ",x)
+    x=eval(raw_input("Give me an expression:"))
+    print("The value is: "+ x)
 
 main()
